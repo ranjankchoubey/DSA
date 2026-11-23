@@ -1,6 +1,6 @@
 class Solution:
     def getConcatenation(self, nums: list[int]) -> list[int]:
-        return nums+nums
+        # return nums+nums
 
         """Another Approach : Running loop
         Time : O(n)
@@ -16,7 +16,7 @@ class Solution:
         # Again copy element of nums into output array
         for i in range(n,2*n):
             output[i] = nums[i-n]
-            
+
         return output
 
         
