@@ -1,8 +1,7 @@
 class Solution:
     def getConcatenation(self, nums: list[int]) -> list[int]:
-        # return nums+nums
 
-        """Another Approach : Running loop
+        """Approach1 : Running loop
         Time : O(n)
         Space: O(n)
         """
@@ -18,5 +17,12 @@ class Solution:
             output[i] = nums[i-n]
 
         return output
+
+        """ Approach2: Use Python Inbuilt list contenation
+            Time : 
+            Space : 
+        """
+        return nums+nums
+
 
         
