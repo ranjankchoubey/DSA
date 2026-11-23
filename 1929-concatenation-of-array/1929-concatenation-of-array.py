@@ -1,7 +1,7 @@
 class Solution:
     def getConcatenation(self, nums: list[int]) -> list[int]:
 
-        """Approach1 : Running loop
+        """Approach1 : Running loop and copy element to output array
         Time : O(n)
         Space: O(n)
         """
