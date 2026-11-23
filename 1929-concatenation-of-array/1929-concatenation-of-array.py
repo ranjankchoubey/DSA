@@ -16,13 +16,19 @@ class Solution:
         for i in range(n,2*n):
             output[i] = nums[i-n]
 
-        return output
+        # return output
 
         """ Approach2: Use Python Inbuilt list contenation
-            Time : 
-            Space : 
+            Time : O(n) 
+            Space : (n) — a new list is created.
         """
-        return nums+nums
+        # return nums+nums
+
+        """ Approach 3: Using list multiplication
+            Time : O(n)
+            Space : (n) — a new list is created.
+        """
+        return nums*2
 
 
         
