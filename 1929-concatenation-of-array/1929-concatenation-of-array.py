@@ -22,7 +22,7 @@ class Solution:
             Time : O(n) 
             Space : (n) — a new list is created.
         """
-        # return nums+nums
+        return nums+nums
 
         """ Approach 3: Using list multiplication
             Time : O(n)
