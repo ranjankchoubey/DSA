@@ -19,23 +19,23 @@ class Solution:
             Time : O(n)
             Space : O(n) excluding output array
         """
-        n = len(nums)
-        left = [1]*n
-        right = [1]*n
-        output = [1]*n
+        # n = len(nums)
+        # left = [1]*n
+        # right = [1]*n
+        # output = [1]*n
 
-        # storing left product
-        for i in range(1,n):
-            left[i] = left[i-1] * nums[i-1]
+        # # storing left product
+        # for i in range(1,n):
+        #     left[i] = left[i-1] * nums[i-1]
          
-        # storing right product
-        for i in range(n-2,-1,-1):
-            right[i] = right[i+1] * nums[i+1]
+        # # storing right product
+        # for i in range(n-2,-1,-1):
+        #     right[i] = right[i+1] * nums[i+1]
         
-        # output[i] = left[i] * right[i]
-        for i in range(n):
-                output[i] = left[i] * right[i] 
-        return output
+        # # output[i] = left[i] * right[i]
+        # for i in range(n):
+        #         output[i] = left[i] * right[i] 
+        # return output
 
         """ Approach 3: Modification in approach2 - without using Auxiliary [left and right] array
             Time : O(n)
